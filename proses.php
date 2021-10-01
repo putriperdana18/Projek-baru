@@ -1,6 +1,6 @@
 <?php
 include '../database.php';
-$mahasiswa = new Mahasiswa();
+$pendaftaran  = new pendaftaran ();
 
 if (isset($_POST['save'])) {
     $aksi = $_POST['aksi'];
